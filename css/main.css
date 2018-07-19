@@ -46,10 +46,16 @@
  *      ## testimonials
  *  # contact
  *      ## loader animation
+
+    # estilos rodrix
+
+
  *  # footer
  *      ## footer main
  *      ## footer bottom
  *      ## go to top
+
+
  *
  *
  * =================================================================== */
@@ -2506,7 +2512,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .works-content {
-    max-width: 6000px;
+    max-width: 1500px;
     height: 700px;
     margin-top: -23.4rem;
 }
@@ -2701,6 +2707,16 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1600px) and (max-width:1920px){
+    .masonry .grid-sizer, .masonry__brick {
+    display:inline-block;
+    width: auto;
+    margin-left: 5%;
+    }
+}
+
+
 @media only screen and (max-width: 800px) {
     .item-folio__title, .item-folio__cat {
         font-size: 1.3rem;
@@ -3326,8 +3342,32 @@ html.no-csstransitions .home-content__main {
         padding: 0 5px;
     }
 }
+/* ===================================================================
+ * # estilos rodrix
+ *
+ * ------------------------------------------------------------------- */
+.text-center{
+    text-align:center;
+}
+
+.center-block{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+}
+
+.stat-cont{
+    width: 45%;
+    margin: 0;
+    float: left;
+}
 
 
+@media only screen and (max-width: 1024px) {
+    .stat-cont{
+        width: 100%;
+    }
+}
 
 /* ===================================================================
  * # footer
